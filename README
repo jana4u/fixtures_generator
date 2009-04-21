@@ -1,0 +1,14 @@
+FixturesGenerator
+=================
+
+Ruby on Rails plug-in containing rake task and generator for recreating
+fixtures according to actual database structure.
+
+
+Usage
+=====
+
+`rake db:fixtures:create`
+
+
+Copyright (c) 2009 Jana4U <jana4u@seznam.cz>, released under the MIT license

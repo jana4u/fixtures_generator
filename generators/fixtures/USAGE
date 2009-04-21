@@ -1,0 +1,18 @@
+Description:
+    Creates database fixtures for existing model. Pass the model name,
+    either CamelCased or under_scored, and a list of attribute pairs
+    as arguments.
+
+    Attribute pairs are column_name:sql_type arguments specifying the
+    model's attributes.
+
+    This generates test fixtures in test/fixtures/table_name.yml.
+
+    This generator is supposed to work with rake task db:fixtures:create,
+    it is not supposed to be run manually.
+
+Example:
+    `./script/generate model post title:string body:text published:boolean`
+
+    This will create fixtures for the Post model:
+        Fixtures:   test/fixtures/posts.yml
